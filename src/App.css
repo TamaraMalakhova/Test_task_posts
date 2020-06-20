@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+ .filter img{
+ height: 1.9rem;
+ background: white;
+ border: 0.05rem solid grey;
+}
+
+.filter {
+  margin-top: 1.5rem;
+  height: 1.9rem;
+  display: flex;
+  justify-content: center;
+  
+ }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
