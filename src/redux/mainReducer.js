@@ -1,7 +1,7 @@
 import { postsAPI, userAPI } from "../api/api";
 
-const SET_DATA = 'initialState/SET_DATA';
-const FILTER_POSTS = 'initialState/FILTER_POSTS';
+const SET_DATA = 'mainReducer/SET_DATA';
+const FILTER_POSTS = 'mainReducer/FILTER_POSTS';
 
 
 let initialState = {

@@ -22,7 +22,7 @@ class App extends React.Component {
     }
     return (<div className="Container">
       <div className ='filter'>
-        <img src={loupeImg} />
+        <img src={loupeImg} alt=''/>
         <input onChange={this.onSearchChange} placeholder='Filter by author...'></input>
       </div>
       <Posts posts={this.props.posts} />
